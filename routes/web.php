@@ -28,18 +28,13 @@ Route::get('/member', 'FrontEndController@getMember');
 
 Route::get('/race', 'FrontEndController@getRace');
 
-// Route::get('/about', function() {
-//     return view('about');
-// });
+//Admin
+Route::get('/admin', 'BackEndController@getHome');
 
-// Route::get('/contact', function() {
-//     return view('contact');
-// });
+Route::get('/admin/add-race', 'BackEndController@addRace');
+Route::get('/admin/get-race', 'BackEndController@getRace');
 
-// Route::get('/member', function() {
-//     return view('member');
-// });
-
-// Route::get('/race', function() {
-//     return view('race');
-// });
+Route::get('/admin/add-track', 'BackEndController@addTrack');
+Route::get('/admin/get-track', 'BackEndController@getTrack');
+Route::get('/admin/get-member', 'BackEndController@getMember');
+Route::get('/admin/get-feedback', 'BackEndController@getFeedBack');
