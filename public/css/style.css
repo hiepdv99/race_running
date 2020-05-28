@@ -113,15 +113,13 @@ ul {
 	list-style: none;
 }
 
-.list {
-}
+
 
 .list li {
     overflow: hidden;
 }
 
-.list li .text1 {
-}
+
 
 .list .list_count {
     margin-right: 17px;
@@ -206,8 +204,6 @@ a:hover {
 	padding: 0 !important;
 }
 
-.pad1 {
-}
 
 
 .img_inner {
@@ -548,8 +544,7 @@ a.gal:hover img {
     padding-top: 8px;
 }
 
-.map address dt {
-}
+
 
  address dd span {
 	display: inline-block;

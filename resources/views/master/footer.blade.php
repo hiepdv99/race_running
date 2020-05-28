@@ -9,8 +9,8 @@
                 <div class="f_phone"><span class="fa fa-phone"></span>+1 800 559 6580</div>
             </div>
             <div class="copy">
-                <span>Marathon &copy; 2014 | <a href="#">Privacy Policy</a></span>
-                Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a>
+           
+                <a href="" rel="nofollow"> Website designed by group 5</a>
             </div>
         </div>
         <div class="clear"></div>

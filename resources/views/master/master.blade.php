@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Home</title>
+		<title></title>
 		<meta charset="utf-8">
 		<meta name="format-detection" content="telephone=no" />
 		<link rel="icon" href="images/favicon.ico">
@@ -11,6 +11,17 @@
 		<link rel="stylesheet" href="css/style4.css" />
 		<link rel="stylesheet" href="css/camera.css">
 		<link rel="stylesheet" href="css/style.css">
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.2.1.js"></script>
 		<script src="js/script.js"></script>
@@ -19,6 +30,8 @@
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/jquery.mobilemenu.js"></script>
 		<script src="js/camera.js"></script>
+
+		
 		<!--[if (gt IE 9)|!(IE)]><!-->
 		<script src="js/jquery.mobile.customized.min.js"></script>
 		<!--<![endif]-->
@@ -53,25 +66,7 @@
 		<div class="main">
 <!--==============================header=================================-->
             @include('master.header')
-			<div class="slider_wrapper">
-				<div id="camera_wrap" class="">
-					<div data-src="images/slide.jpg">
-						<div class="caption fadeIn">
-							Run for Your Health
-						</div>
-					</div>
-					<div data-src="images/slide1.jpg">
-						<div class="caption fadeIn">
-							Fast as Wind
-						</div>
-					</div>
-					<div data-src="images/slide2.jpg">
-						<div class="caption fadeIn">
-							Never Stop
-						</div>
-					</div>
-				</div>
-			</div>
+			
 <!--==============================Content=================================-->
             @yield('content')
 		</div>

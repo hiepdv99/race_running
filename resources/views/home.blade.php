@@ -1,5 +1,24 @@
 @extends('master.master')
 @section('content')
+			<div class="slider_wrapper">
+				<div id="camera_wrap" class="">
+					<div data-src="images/slide.jpg">
+						<div class="caption fadeIn">
+							Run for Your Health
+						</div>
+					</div>
+					<div data-src="images/slide1.jpg">
+						<div class="caption fadeIn">
+							Fast as Wind
+						</div>
+					</div>
+					<div data-src="images/slide2.jpg">
+						<div class="caption fadeIn">
+							Never Stop
+						</div>
+					</div>
+				</div>
+			</div>
 <div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - April 21, 2014!</div>
 	<div class="container_12">
 		<div class="grid_12">
@@ -7,7 +26,7 @@
 			<div class="count_wrap">
 				<div id="counter"></div>
 				<div class="clear"></div>
-				<a href="#">Join Us</a>
+				<a href="join">Join Us</a>
 			</div>
 		</div>
 		<div class="clear"></div>

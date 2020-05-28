@@ -28,6 +28,32 @@ Route::get('/member', 'FrontEndController@getMember');
 
 Route::get('/race', 'FrontEndController@getRace');
 
+Route::get('/join', 'FrontEndController@getJoin');
+
+Route::post('/join', 'FrontEndController@postJoin');
+
+Route::get('/login', 'FrontEndController@getLogin');
+Route::post('/login', 'FrontEndController@postLogin');
+Route::get('/register', 'FrontEndController@getRegister');
+Route::post('/register', 'FrontEndController@postRegister');
+Route::post('/feedback', 'FrontEndController@postFeedback');
+Route::get('/logout', 'FrontEndController@getLogout');
+
+// Route::get('/about', function() {
+//     return view('about');
+// });
+
+// Route::get('/contact', function() {
+//     return view('contact');
+// });
+
+// Route::get('/member', function() {
+//     return view('member');
+// });
+
+// Route::get('/race', function() {
+//     return view('race');
+// });
 //Admin
 Route::get('/admin', 'BackEndController@getHome');
 
